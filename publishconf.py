@@ -10,7 +10,7 @@ AUTHOR = 'Purple Pillz Printz'
 SITENAME = 'Purple Pillz Printz'
 
 # If your site is available via HTTPS
-SITEURL = 'https://<your-github-username>.github.io/p3printz'
+SITEURL = 'https://p3printz.github.io'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
