@@ -76,6 +76,41 @@ a {
   }
 }
 
+// ─── Nav CTA Button ───────────────────────────────────────────────────────────
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-cta {
+  background-color: $purple-main;
+  border-radius: 4px;
+  color: #fff !important;
+  font-family: $font-heading;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-left: 1rem;
+  padding: 0.4rem 1.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: $purple-light;
+    box-shadow: 0 0 12px $purple-glow;
+    color: #fff !important;
+  }
+
+  @media (max-width: 600px) {
+    display: block;
+    margin: 0.5rem 0 0;
+    text-align: center;
+  }
+}
+
 // ─── Page Content ─────────────────────────────────────────────────────────────
 .page-content {
   background-color: $bg-dark;

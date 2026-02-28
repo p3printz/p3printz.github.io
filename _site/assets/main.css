@@ -712,6 +712,40 @@ a:visited {
   }
 }
 
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-cta {
+  background-color: #8b2fc9;
+  border-radius: 4px;
+  color: #fff !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-left: 1rem;
+  padding: 0.4rem 1.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  white-space: nowrap;
+}
+.nav-cta:hover {
+  background-color: #a855f7;
+  box-shadow: 0 0 12px rgba(139, 47, 201, 0.25);
+  color: #fff !important;
+}
+@media (max-width: 600px) {
+  .nav-cta {
+    display: block;
+    margin: 0.5rem 0 0;
+    text-align: center;
+  }
+}
+
 .page-content {
   background-color: #0d0d0d;
   padding-top: 2rem;
