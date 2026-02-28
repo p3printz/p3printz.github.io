@@ -8,9 +8,9 @@ Let's talk about how Purple Pillz Printz can help take your MMA career to the ne
 
 ## Contact Information
 
-**Email:** jvisel99@gmail.com
+**Email:** [jvisel99@gmail.com](mailto:jvisel99@gmail.com)
 
-**Phone:** +1 (734) 780-6788
+**Phone:** [+1 (734) 780-6788](tel:+17347806788)
 
 **Follow Us On Social Media:**
 
@@ -20,19 +20,44 @@ Let's talk about how Purple Pillz Printz can help take your MMA career to the ne
 
 ---
 
-## Quick Contact Form
+## Send Us a Message
 
-You can reach us through:
-
-1. **Email** - Send us your questions and we'll respond within 24 hours
-2. **Phone** - Call us during business hours (Monday-Friday, 9am-5pm CST)
-3. **Social Media** - DM us on Instagram or Facebook for quick questions
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+  <div class="form-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Mike Tyson" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone (optional)</label>
+    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+  </div>
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <select id="subject" name="subject" required>
+      <option value="" disabled selected>Select a topic...</option>
+      <option value="Package Inquiry">Package Inquiry</option>
+      <option value="Custom Quote">Custom Quote</option>
+      <option value="Free Consultation">Free Consultation</option>
+      <option value="Apparel Order">Apparel Order</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Tell us about yourself and what you're looking for..." required></textarea>
+  </div>
+  <button type="submit" class="form-submit">Send Message</button>
+</form>
 
 ---
 
 ## Schedule a Free Consultation
 
-We offer a free 30-minute consultation to discuss your goals and how we can help your MMA career. [Email us](mailto:info@purplepillzprintz.com?subject=Free%20Consultation%20Request) to schedule yours today.
+We offer a free 30-minute consultation to discuss your goals and how we can help your MMA career. [Email us](mailto:jvisel99@gmail.com?subject=Free%20Consultation%20Request) to schedule yours today.
 
 ---
 
