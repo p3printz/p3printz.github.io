@@ -6,85 +6,112 @@ permalink: /packages/
 
 Choose the package that's right for your MMA career.
 
-## The Basic Package
-**Perfect for up-and-coming fighters**
+<div class="packages-grid">
 
-- Social Media Boost and Share
-- 2x e/o 2 weeks
-- 5x Hats (Flat or Capped)
-- 5x Fight Shirts (From SM to XXL) or Company shirts with Titan logo
-- Logo can go on fight shorts or banner
-- Shoutout week before fight and day of fight
+  <div class="package-card">
+    <div class="package-header">
+      <h3 class="package-name">Basic</h3>
+      <p class="package-tagline">Perfect for up-and-coming fighters</p>
+    </div>
+    <ul class="package-features">
+      <li>Social media boost &amp; share</li>
+      <li>2x posts every 2 weeks</li>
+      <li>5x hats (flat or capped)</li>
+      <li>5x fight shirts (SM–XXL)</li>
+      <li>Logo on fight shorts or banner</li>
+      <li>Shoutout week before &amp; day of fight</li>
+    </ul>
+    <a href="/contact/" class="package-cta">Get Started</a>
+  </div>
 
----
+  <div class="package-card">
+    <div class="package-header">
+      <h3 class="package-name">Standard</h3>
+      <p class="package-tagline">Perfect for up-and-coming fighters</p>
+    </div>
+    <ul class="package-features">
+      <li>Social media boost &amp; share</li>
+      <li>3x posts every 2 weeks</li>
+      <li>10x hats (flat or capped)</li>
+      <li>10x fight shirts (SM–XXL)</li>
+      <li>Logo on fight shorts or banner</li>
+      <li>Shoutout week before &amp; day of fight</li>
+    </ul>
+    <a href="/contact/" class="package-cta">Get Started</a>
+  </div>
 
-## The Standard Package
-**Perfect for up-and-coming fighters**
+  <div class="package-card">
+    <div class="package-header">
+      <h3 class="package-name">Bronze</h3>
+      <p class="package-tagline">For fighters building their brand</p>
+    </div>
+    <ul class="package-features">
+      <li>Social media boost &amp; share</li>
+      <li>2x posts per week</li>
+      <li>15x hats (flat or capped)</li>
+      <li>15x fight shirts (SM–XXL)</li>
+      <li>Choice of 2 shirt colors</li>
+      <li>Logo on fight shorts or banner</li>
+      <li>Shoutout fight week &amp; day of fight</li>
+    </ul>
+    <a href="/contact/" class="package-cta">Get Started</a>
+  </div>
 
-- Social Media Boost and Share
-- 3x e/o 2 weeks
-- 10x Hats (Flat or Capped)
-- 10x Fight Shirts (From SM to XXL) or Company shirts with Titan logo
-- Logo can go on fight shorts or banner
-- Shoutout week before fight and day of fight
+  <div class="package-card">
+    <div class="package-header">
+      <h3 class="package-name">Silver</h3>
+      <p class="package-tagline">For fighters building their brand</p>
+    </div>
+    <ul class="package-features">
+      <li>Social media boost &amp; share</li>
+      <li>3x posts per week</li>
+      <li>20x hats (flat or capped)</li>
+      <li>20x fight shirts (SM–XXL)</li>
+      <li>Choice of 3 shirt colors</li>
+      <li>5x rubber wristbands</li>
+      <li>Logo on fight shorts or banner</li>
+      <li>Shoutouts through fight week &amp; after</li>
+    </ul>
+    <a href="/contact/" class="package-cta">Get Started</a>
+  </div>
 
----
+  <div class="package-card package-card--featured">
+    <div class="package-badge">Most Popular</div>
+    <div class="package-header">
+      <h3 class="package-name">Gold</h3>
+      <p class="package-tagline">For serious contenders &amp; champions</p>
+    </div>
+    <ul class="package-features">
+      <li>Social media boost &amp; share</li>
+      <li>5x posts per week</li>
+      <li>25x hats (flat or capped)</li>
+      <li>25x fight shirts (SM–XXL)</li>
+      <li>Choice of 5 shirt colors</li>
+      <li>10x rubber wristbands</li>
+      <li>Logo on fight shorts or banner</li>
+      <li>Full fight week shoutout coverage</li>
+    </ul>
+    <a href="/contact/" class="package-cta">Get Started</a>
+  </div>
 
-## The Bronze Package
-**For fighters building their brand**
+  <div class="package-card">
+    <div class="package-header">
+      <h3 class="package-name">Platinum</h3>
+      <p class="package-tagline">For serious contenders &amp; champions</p>
+    </div>
+    <ul class="package-features">
+      <li>Social media boost &amp; share</li>
+      <li>6–7x posts per week</li>
+      <li>30x hats (flat or capped)</li>
+      <li>30x fight shirts (SM–XXL)</li>
+      <li>Any shirt color</li>
+      <li>15x rubber wristbands</li>
+      <li>Logo on fight shorts or banner</li>
+      <li>Full fight week shoutout coverage</li>
+    </ul>
+    <a href="/contact/" class="package-cta">Get Started</a>
+  </div>
 
-- Social Media Boost and Share
-- 2x a week
-- 15x Hats (Flat or Capped)
-- 15x Fight Shirts (From SM to XXL) or Company shirts with Titan logo
-- Can pick between two colors for shirts
-- Logo can go on fight shorts or banner
-- Shoutout fight week and day of fight
+</div>
 
----
-
-## The Silver Package
-**For fighters building their brand**
-
-- Social Media Boost and Share
-- 3x a week
-- 20x Hats (Flat or Capped)
-- 20x Fight Shirts (From SM to XXL) or Company shirts with Titan logo
-- Can pick between three colors for shirts
-- 5x rubber wristbands
-- Logo can go on fight shorts or banner
-- Shoutout fight week, during weight cut, day of fight and after fight
-
----
-
-## The Gold Package
-**For serious contenders and champions**
-
-- Social Media Boost and Share
-- 5x a week
-- 25x Hats (Flat or Capped)
-- 25x Fight Shirts (From SM to XXL) or Company shirts with Titan logo
-- Can pick between five colors for shirts
-- 10x rubber wristbands
-- Logo can go on fight shorts or banner
-- Shoutout fight week, during weight cut, during weigh ins, after weigh ins, day of fight and after fight
-
----
-
-## The Platinum Package
-**For serious contenders and champions**
-
-- Social Media Boost and Share
-- 6-7x a week
-- 30x Hats (Flat or Capped)
-- 30x Fight Shirts (From SM to XXL) or Company shirts with Titan logo
-- Can pick any color
-- 15x rubber wristbands
-- Logo can go on fight shorts or banner
-- Shoutout fight week, during weight cut, during weigh ins, after weigh ins, day of fight and after fight
-
----
-
-*All prices are subject to customization based on specific requirements. Contact us for a personalized quote.*
-
-[Contact Us for More Information](/contact/)
+*All prices are subject to customization based on specific requirements. [Contact us](/contact/) for a personalized quote.*
