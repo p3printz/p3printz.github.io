@@ -1,0 +1,53 @@
+<footer class="site-footer">
+  <div class="footer-wrapper">
+
+    <div class="footer-col footer-brand">
+      <a class="footer-logo" href="{{ "/" | relative_url }}">Purple Pillz Printz</a>
+      <p class="footer-tagline">{{ site.description | escape }}</p>
+      <div class="social-icons">
+        {%- if site.instagram_username -%}
+        <a href="https://instagram.com/{{ site.instagram_username | cgi_escape | escape }}" class="social-icon-btn" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg class="svg-icon" aria-hidden="true"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg>
+          <span>@{{ site.instagram_username | escape }}</span>
+        </a>
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div class="footer-col footer-links">
+      <h3 class="footer-col-heading">Quick Links</h3>
+      <ul>
+        <li><a href="{{ "/" | relative_url }}">Home</a></li>
+        <li><a href="{{ "/about/" | relative_url }}">About Us</a></li>
+        <li><a href="{{ "/packages/" | relative_url }}">Our Packages</a></li>
+        <li><a href="{{ "/contact/" | relative_url }}">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col footer-contact">
+      <h3 class="footer-col-heading">Contact</h3>
+      <ul>
+        <li>
+          <svg class="svg-icon footer-contact-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </li>
+        <li>
+          <svg class="svg-icon footer-contact-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+          <a href="tel:+17347806788">+1 (734) 780-6788</a>
+        </li>
+        <li>
+          <svg class="svg-icon footer-contact-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+          <span>Based in Michigan</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-wrapper">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}. All rights reserved.</span>
+    </div>
+  </div>
+
+</footer>

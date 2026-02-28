@@ -825,22 +825,104 @@ hr {
 
 .site-footer {
   background-color: #161616;
-  border-top: 1px solid #2a2a2a;
-  color: #9ca3af;
+  border-top: 3px solid #8b2fc9;
+  margin-top: 4rem;
 }
-.site-footer .footer-heading {
-  color: #f0f0f0;
-  font-size: 1rem;
+
+.footer-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2.5rem;
+}
+@media (max-width: 700px) {
+  .footer-wrapper {
+    grid-template-columns: 1fr;
+    padding: 2rem 1.25rem;
+  }
+}
+
+.footer-logo {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
   font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #f0f0f0 !important;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.75rem;
 }
-.site-footer a {
+.footer-logo:hover {
+  color: #a855f7 !important;
+}
+
+.footer-tagline {
   color: #9ca3af;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
 }
-.site-footer a:hover {
+
+.footer-col-heading {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #a855f7;
+  margin-bottom: 1rem;
+  border: none;
+  padding: 0;
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-links ul li,
+.footer-contact ul li {
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+.footer-links ul a,
+.footer-contact ul a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-links ul a:hover,
+.footer-contact ul a:hover {
   color: #a855f7;
 }
-.site-footer .contact-list, .site-footer .social-media-list {
+.footer-links ul a:visited,
+.footer-contact ul a:visited {
   color: #9ca3af;
+}
+
+.footer-contact-icon {
+  width: 16px;
+  height: 16px;
+  fill: #8b2fc9;
+  flex-shrink: 0;
+}
+
+.footer-bottom {
+  border-top: 1px solid #2a2a2a;
+}
+.footer-bottom .footer-wrapper {
+  grid-template-columns: 1fr;
+  padding: 1rem 1.5rem;
+  font-size: 0.8rem;
+  color: #4b5563;
 }
 
 pre, code {

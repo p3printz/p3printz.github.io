@@ -196,12 +196,97 @@ hr {
 // ─── Footer ───────────────────────────────────────────────────────────────────
 .site-footer {
   background-color: $bg-mid;
-  border-top: 1px solid $border;
-  color: $text-muted;
+  border-top: 3px solid $purple-main;
+  margin-top: 4rem;
+}
 
-  .footer-heading { color: $text-primary; font-size: 1rem; font-weight: 700; }
-  a { color: $text-muted; &:hover { color: $purple-light; } }
-  .contact-list, .social-media-list { color: $text-muted; }
+.footer-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2.5rem;
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    padding: 2rem 1.25rem;
+  }
+}
+
+.footer-logo {
+  font-family: $font-heading;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $text-primary !important;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.75rem;
+
+  &:hover { color: $purple-light !important; }
+}
+
+.footer-tagline {
+  color: $text-muted;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.footer-col-heading {
+  font-family: $font-heading;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $purple-light;
+  margin-bottom: 1rem;
+  border: none;
+  padding: 0;
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: $text-muted;
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: $text-muted;
+    text-decoration: none;
+    transition: color 0.2s;
+    &:hover { color: $purple-light; }
+    &:visited { color: $text-muted; }
+  }
+}
+
+.footer-contact-icon {
+  width: 16px;
+  height: 16px;
+  fill: $purple-main;
+  flex-shrink: 0;
+}
+
+.footer-bottom {
+  border-top: 1px solid $border;
+
+  .footer-wrapper {
+    grid-template-columns: 1fr;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+    color: #4b5563;
+  }
 }
 
 // ─── Code blocks ─────────────────────────────────────────────────────────────
