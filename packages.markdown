@@ -75,11 +75,11 @@ Choose the package that's right for your MMA career.
 **For serious contenders and champions**
 
 - Social Media Boost and Share
-- 5x a week
-- 25x Hats (Flat or Capped)
-- 25x Fight Shirts (From SM to XXL) or Company shirts with Titan logo
-- Can pick between five colors for shirts
-- 10x rubber wristbands
+- 6-7x a week
+- 30x Hats (Flat or Capped)
+- 30x Fight Shirts (From SM to XXL) or Company shirts with Titan logo
+- Can pick any color
+- 15x rubber wristbands
 - Logo can go on fight shorts or banner
 - Shoutout fight week, during weight cut, during weigh ins, after weigh ins, day of fight and after fight
 
