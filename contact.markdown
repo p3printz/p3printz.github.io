@@ -15,8 +15,6 @@ Let's talk about how Purple Pillz Printz can help take your MMA career to the ne
 **Follow Us On Social Media:**
 
 - Instagram: [@jvisel145](https://instagram.com/jvisel145)
-- Facebook: [Purple Pillz Printz](https://facebook.com/purplepillzprintz)
-- TikTok: [@p3printz](https://tiktok.com/@p3printz)
 
 ---
 
