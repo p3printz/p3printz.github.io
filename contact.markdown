@@ -14,7 +14,12 @@ Let's talk about how Purple Pillz Printz can help take your MMA career to the ne
 
 **Follow Us On Social Media:**
 
-- Instagram: [@jvisel145](https://instagram.com/jvisel145)
+<div class="social-icons">
+  <a href="https://instagram.com/jvisel145" class="social-icon-btn" target="_blank" rel="noopener">
+    <svg class="svg-icon" aria-hidden="true"><use xlink:href="/assets/minima-social-icons.svg#instagram"></use></svg>
+    <span>@jvisel145</span>
+  </a>
+</div>
 
 ---
 

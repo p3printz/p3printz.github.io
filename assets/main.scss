@@ -211,6 +211,81 @@ pre, code {
   color: $purple-light;
 }
 
+// ─── Social Icon Buttons ──────────────────────────────────────────────────────
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.75rem 0;
+}
+
+.social-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: $bg-card;
+  border: 1px solid $border;
+  border-radius: 4px;
+  color: $text-primary !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.55rem 1rem;
+  text-decoration: none;
+  transition: border-color 0.2s, background-color 0.2s, box-shadow 0.2s;
+
+  .svg-icon {
+    width: 20px;
+    height: 20px;
+    fill: $purple-light;
+    flex-shrink: 0;
+  }
+
+  &:hover {
+    border-color: $purple-main;
+    background-color: rgba(139, 47, 201, 0.12);
+    box-shadow: 0 0 10px $purple-glow;
+    color: $text-primary !important;
+  }
+}
+
+// Footer social icons — use the same style
+.social-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+
+  li { margin: 0; }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background-color: $bg-card;
+    border: 1px solid $border;
+    border-radius: 4px;
+    color: $text-muted !important;
+    font-size: 0.85rem;
+    padding: 0.45rem 0.85rem;
+    text-decoration: none;
+    transition: border-color 0.2s, background-color 0.2s;
+
+    .svg-icon {
+      width: 18px;
+      height: 18px;
+      fill: $purple-light;
+    }
+
+    &:hover {
+      border-color: $purple-main;
+      background-color: rgba(139, 47, 201, 0.12);
+      color: $text-primary !important;
+    }
+  }
+}
+
 // ─── Hero ─────────────────────────────────────────────────────────────────────
 .hero {
   background: linear-gradient(160deg, #0d0d0d 0%, #1b0933 45%, #0d0d0d 100%);
