@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -644,6 +645,224 @@ table td {
 }
 .highlight .il {
   color: #099;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+a {
+  color: #a855f7;
+}
+a:hover {
+  color: #f0a500;
+  text-decoration: none;
+}
+a:visited {
+  color: #a855f7;
+}
+
+.site-header {
+  background-color: #161616;
+  border-top: 3px solid #8b2fc9;
+  border-bottom: 1px solid #2a2a2a;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #f0f0f0 !important;
+  text-transform: uppercase;
+}
+.site-title:hover {
+  color: #a855f7 !important;
+  text-decoration: none;
+}
+.site-title:visited {
+  color: #f0f0f0 !important;
+}
+.site-title::before {
+  content: "🟣 ";
+}
+
+.site-nav {
+  background-color: #161616;
+}
+.site-nav .page-link {
+  color: #9ca3af;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+.site-nav .page-link:hover {
+  color: #f0a500;
+}
+@media (max-width: 600px) {
+  .site-nav {
+    background-color: #1e1e1e;
+    border: 1px solid #2a2a2a;
+  }
+  .site-nav .page-link {
+    color: #f0f0f0;
+  }
+}
+
+.page-content {
+  background-color: #0d0d0d;
+  padding-top: 2rem;
+}
+
+.wrapper {
+  max-width: 860px;
+}
+
+h1, h2, h3, h4 {
+  color: #f0f0f0;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 2.4rem;
+  letter-spacing: -0.02em;
+  border-bottom: 3px solid #8b2fc9;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #a855f7;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-left: 4px solid #8b2fc9;
+  padding-left: 0.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #f0a500;
+  margin-top: 1.5rem;
+}
+
+p {
+  color: #d1d5db;
+  line-height: 1.75;
+}
+
+ul, ol {
+  color: #d1d5db;
+}
+ul li, ol li {
+  margin-bottom: 0.3rem;
+}
+
+strong {
+  color: #f0f0f0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 2rem 0;
+}
+
+.post-content h2 + p + ul,
+.post-content h2 + ul, .page-content .wrapper h2 + p + ul,
+.page-content .wrapper h2 + ul {
+  background-color: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-left: 4px solid #8b2fc9;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.post-content > p > a,
+.page-content > .wrapper > article > p > a {
+  display: inline-block;
+  background-color: #8b2fc9;
+  color: #fff !important;
+  padding: 0.55rem 1.4rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  text-decoration: none;
+}
+.post-content > p > a:hover,
+.page-content > .wrapper > article > p > a:hover {
+  background-color: #a855f7;
+  box-shadow: 0 0 12px rgba(139, 47, 201, 0.25);
+  color: #fff !important;
+}
+
+.home .page-content .wrapper h1:first-child {
+  font-size: 2.8rem;
+  text-align: center;
+  border: none;
+  padding-bottom: 0;
+  background: linear-gradient(135deg, #a855f7, #f0a500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+.home .page-content .wrapper h1:first-child + p {
+  text-align: center;
+  font-size: 1.15rem;
+  color: #9ca3af;
+  margin-bottom: 2rem;
+}
+
+.site-footer {
+  background-color: #161616;
+  border-top: 1px solid #2a2a2a;
+  color: #9ca3af;
+}
+.site-footer .footer-heading {
+  color: #f0f0f0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.site-footer a {
+  color: #9ca3af;
+}
+.site-footer a:hover {
+  color: #a855f7;
+}
+.site-footer .contact-list, .site-footer .social-media-list {
+  color: #9ca3af;
+}
+
+pre, code {
+  background-color: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  color: #a855f7;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8b2fc9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
 }
 
 /*# sourceMappingURL=main.css.map */
